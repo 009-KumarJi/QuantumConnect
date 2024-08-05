@@ -1,0 +1,23 @@
+{
+  "name": "quantumconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/009-KumarJi/QuantumConnect.git"
+  },
+  "keywords": [
+    "conatct",
+    "manager"
+  ],
+  "author": "Krishna Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/009-KumarJi/QuantumConnect/issues"
+  },
+  "homepage": "https://github.com/009-KumarJi/QuantumConnect#readme",
+  "description": ""
+}
