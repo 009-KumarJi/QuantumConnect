@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | QuantumConnect</title>
+    <style>
+        .container{
+            margin: auto;
+            width: 50%;
+            padding: 30px;
+            background: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome Back, <span data-th-text="${name}"></span></h1>
+    <p>Github id: <span data-th-text="${github}"></span></p>
+    <p>Studying in <span data-th-text="${university}"></span></p>
+    <a th:href="|https://www.github.com/${github}|" target="_blank">Open github</a>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor fuga fugit laborum maiores quia? Eum
+        facilis labore, magni nisi repudiandae sit vel! Consequuntur cum debitis deleniti exercitationem quas recusandae
+        sapiente. A adipisci autem doloribus eligendi, facere fuga incidunt laudantium magnam modi, nam nihil omnis
+        pariatur sint totam ut vitae.
+    </p>
+</div>
+</body>
+</html>

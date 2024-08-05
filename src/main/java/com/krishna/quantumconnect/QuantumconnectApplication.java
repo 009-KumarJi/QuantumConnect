@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class QuantumconnectApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(QuantumconnectApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(QuantumconnectApplication.class, args);
+    }
 
 }
